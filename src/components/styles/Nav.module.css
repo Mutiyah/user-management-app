@@ -1,0 +1,50 @@
+.listTag{
+    margin-top: 10px;
+}
+
+.linkTag, .linkIcon{
+    color: #fff !important;
+}
+
+.linkTag{
+    text-decoration: none;
+}
+
+.linkTag:active{
+    color: pink;
+}
+
+.linkTag:focus .linkIcon{
+    color: #fff !important;
+    background-color: #d05663 !important;
+    border-radius: 50% !important;
+    padding: 4px;
+    font-size: 1.8em !important;
+}
+
+.linkTag:focus .linkText{
+    color: #d05663;
+    font-weight: bold;
+}
+
+.cad{
+    padding-bottom: 10px
+}
+
+.table{
+    overflow-x: scroll !important;
+    overflow-y: scroll !important;
+}
+
+.table th{
+    white-space: nowrap;
+}
+
+.table tbody .tdAction{
+    cursor: pointer;
+}
+
+.table tbody .tdAction:hover{
+    background-color: #ccc;
+}
+
